@@ -17,7 +17,7 @@ function appendToDisplay(value) {
   function calculateResult() {
     var display = document.getElementById('display');
     var expression = display.innerHTML;
-    var result = eval(expression); // Note: eval() is used here for simplicity, but it's generally not recommended for security reasons.
+    var result = eval(expression); 
     display.innerHTML = result;
   }
   
