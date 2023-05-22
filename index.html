@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="48540.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a2bba44d70.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="page">
+        <div class="sidebar">
+            <div class="heading">
+                <h1>Emil<span>.</span></h1> 
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">Photography</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="rights">
+                <p>Copyright 2023 All rights reserved <br> | This template is made with <i class="fa-solid fa-heart"></i> by <br> <span>Lorem</span></p>
+            </div>
+            <div class="sidebar__icons">
+                <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/reon-emil-245762267/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="content__img"></div>
+
+            <div class="content__name">
+                <p>Hello I'm</p>
+                <h1>Emil Alizada</h1>
+            </div>
+
+            <div class="content__text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci perferendis consequuntur at natus dolore dolorum maiores fuga! Dicta illum qui in, unde, omnis ducimus corrupti adipisci, impedit maiores aliquid voluptate!
+                </p>
+            </div>
+            <div class="content__about-me">
+                <a href="#">More About Me<i class="fa-solid fa-chevron-right fa-xs"></i></a>
+            </div>
+            <div class="container">
+                <div class="calculator">
+                        <input type="text" id="result" disabled>
+                        <div class="container">
+                            <div class="calculator">
+                              <div class="display" id="display"></div>
+                              <div class="button-container">
+                                <button class="button clear" onclick="clearDisplay()">C</button>
+                                <button class="button delete" onclick="deleteLastCharacter()">&larr;</button>
+                                <button class="button operator" onclick="appendToDisplay('/')">/</button>
+                                <button class="button" onclick="appendToDisplay('7')">7</button>
+                                <button class="button" onclick="appendToDisplay('8')">8</button>
+                                <button class="button" onclick="appendToDisplay('9')">9</button>
+                                <button class="button operator" onclick="appendToDisplay('*')">*</button>
+                                <button class="button" onclick="appendToDisplay('4')">4</button>
+                                <button class="button" onclick="appendToDisplay('5')">5</button>
+                                <button class="button" onclick="appendToDisplay('6')">6</button>
+                                <button class="button operator" onclick="appendToDisplay('-')">-</button>
+                                <button class="button" onclick="appendToDisplay('1')">1</button>
+                                <button class="button" onclick="appendToDisplay('2')">2</button>
+                                <button class="button" onclick="appendToDisplay('3')">3</button>
+                                <button class="button operator" onclick="appendToDisplay('+')">+</button>
+                                <button class="button zero" onclick="appendToDisplay('0')">0</button>
+                                <button class="button" onclick="appendToDisplay('.')">.</button>
+                                <button class="button equal" onclick="calculateResult()">=</button>
+                              </div>
+                            </div>
+                          </div>
+                          
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
